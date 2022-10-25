@@ -1,0 +1,364 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Infrastructure", "Holding.Base.Infrastructure\Holding.Base.Infrastructure.csproj", "{AACCF27A-E14C-4BC1-B6C8-8864A848A248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Event", "Holding.Base.Event\Holding.Base.Event.csproj", "{B0884B89-A343-4FA4-BB8F-847DC3FC96A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{43D43C23-FCED-4534-B6E9-397227F5302C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{FF65948F-BEC6-4760-AE73-003D9C7DE857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Bus.Configuration", "HFJ.SSK.Kernel.Bus.Configuration\Holding.Base.Bus.Configuration.csproj", "{9AE0938E-7FB7-4EF4-896C-D829508BF667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.QueryService", "Holding.Base.QueryService\Holding.Base.QueryService.csproj", "{DFCA59F3-A412-404C-87B1-52EFDF6E57CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.QueryModel", "Holding.Base.QueryModel\Holding.Base.QueryModel.csproj", "{D4D91BCE-4A00-4C93-93ED-AE744B896242}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{8FFA257C-8E51-4352-9BB4-F75649991856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{08600938-A626-4D3D-9AFA-F04207AF73CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOA", "SOA", "{0F393541-F675-4A11-9E2D-B8BCA9CA4813}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{748A3BBB-4D09-4ED3-A98A-F5B464FCE4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Cache", "Holding.Base.Cache\Holding.Base.Cache.csproj", "{9AE6C894-A17D-4653-B668-E89C974EA01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.SharedData.Cache", "Holding.Base.SharedData.Cache\Holding.Base.SharedData.Cache.csproj", "{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.SOA", "Holding.Base.SOA\Holding.Base.SOA.csproj", "{C92632B4-9B13-41FC-A30F-7FDFF917DE29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{54D975E1-8B5C-405C-9F97-F30A81BD3FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.DataProvider", "Holding.Base.DataProvider\Holding.Base.DataProvider.csproj", "{9E9D60D8-4D97-474A-BE23-364A0C44449C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AAB0EBD6-0F9C-452A-A0F1-C6C0E701354D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.DomainModel", "Holding.Base.DomainModel\Holding.Base.DomainModel.csproj", "{475EBA4D-397D-4C9B-81F0-7AB8B983A551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.QueryProvider", "Holding.Base.QueryProvider\Holding.Base.QueryProvider.csproj", "{85DF7486-F5B0-4050-88C5-7450484C0ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Security", "Holding.Base.Security\Holding.Base.Security.csproj", "{A4AA79DC-01C5-433F-B22D-0987EF544A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Event.Message", "Holding.Base.Event.Message\Holding.Base.Event.Message.csproj", "{B921DA40-FC58-4A39-9E89-B6EFDA7F749D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Bus.Rabbitmq.Configuration", "Holding.Base.Bus.Rabbitmq.Configuration\Holding.Base.Bus.Rabbitmq.Configuration.csproj", "{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Bus", "Holding.Base.Bus\Holding.Base.Bus.csproj", "{86A6F917-6B60-4492-8EAD-B78B02E48BFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B6D6380C-FC96-4857-9EAA-136AFA91433B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sync", "Sync", "{4516D848-78EE-44EE-91C3-4904323391E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Sync", "Holding.Base.Sync\Holding.Base.Sync.csproj", "{559EBE69-2E29-4464-936B-0F793F4BD6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Infrastructure", "Holding.Base.Infrastructure\Holding.Base.Infrastructure.csproj", "{EFB322C8-4C75-4E2B-A307-AF384FD0E276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.DomainModel", "Holding.Base.DomainModel\Holding.Base.DomainModel.csproj", "{1042BE36-A861-4404-BAB4-A39CD6ECF72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.CommandBus", "Holding.Base.CommandBus\Holding.Base.CommandBus.csproj", "{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Event", "Holding.Base.Event\Holding.Base.Event.csproj", "{E25C3785-4678-4394-86DA-4362FACB02D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{B38353CF-AD5B-4FEB-B10A-55BCD9F5B5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.EntityFrameworkProvider", "Holding.Base.EntityFrameworkProvider\Holding.Base.EntityFrameworkProvider.csproj", "{6681F2D8-B4B4-4635-B833-0E2428A9CA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.EntityFrameworkProvider.Implement", "Holding.Base.EntityFrameworkProvider.Implement\Holding.Base.EntityFrameworkProvider.Implement.csproj", "{9F97BC53-A055-45FD-B2F0-5E642B04E349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.EntityFrameworkProvider.Read", "Holding.Base.EntityFrameworkProvider.Read\Holding.Base.EntityFrameworkProvider.Read.csproj", "{1E4748A1-0135-474C-B256-91295C10887D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.EntityFrameworkProvider.Write", "Holding.Base.EntityFrameworkProvider.Write\Holding.Base.EntityFrameworkProvider.Write.csproj", "{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.CommandBus.Messages", "Holding.Base.CommandBus.Messages\Holding.Base.CommandBus.Messages.csproj", "{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".TEST", ".TEST", "{200ED9BE-02AB-4D73-812E-1E85B40B9589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCommandBus", "TestCommandBus\TestCommandBus.csproj", "{D285F063-33C7-49B7-9CB9-16B1018D0A9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migration", "Migration", "{DA2F2CD1-E3DB-4DE8-A717-5773CED74BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.MongoMigration", "Holding.Base.MongoMigration\Holding.Base.MongoMigration.csproj", "{5FC4EA15-D8C7-41F6-8A4E-34E71D487476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holding.Base.Security.Authorization", "Holding.Base.Security.Authorization\Holding.Base.Security.Authorization.csproj", "{A631265A-E5B5-4657-9F94-EC71868209E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AACCF27A-E14C-4BC1-B6C8-8864A848A248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACCF27A-E14C-4BC1-B6C8-8864A848A248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACCF27A-E14C-4BC1-B6C8-8864A848A248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACCF27A-E14C-4BC1-B6C8-8864A848A248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0884B89-A343-4FA4-BB8F-847DC3FC96A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0884B89-A343-4FA4-BB8F-847DC3FC96A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0884B89-A343-4FA4-BB8F-847DC3FC96A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0884B89-A343-4FA4-BB8F-847DC3FC96A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE0938E-7FB7-4EF4-896C-D829508BF667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE0938E-7FB7-4EF4-896C-D829508BF667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE0938E-7FB7-4EF4-896C-D829508BF667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE0938E-7FB7-4EF4-896C-D829508BF667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCA59F3-A412-404C-87B1-52EFDF6E57CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCA59F3-A412-404C-87B1-52EFDF6E57CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCA59F3-A412-404C-87B1-52EFDF6E57CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCA59F3-A412-404C-87B1-52EFDF6E57CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D91BCE-4A00-4C93-93ED-AE744B896242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D91BCE-4A00-4C93-93ED-AE744B896242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D91BCE-4A00-4C93-93ED-AE744B896242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D91BCE-4A00-4C93-93ED-AE744B896242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE6C894-A17D-4653-B668-E89C974EA01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE6C894-A17D-4653-B668-E89C974EA01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE6C894-A17D-4653-B668-E89C974EA01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE6C894-A17D-4653-B668-E89C974EA01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92632B4-9B13-41FC-A30F-7FDFF917DE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92632B4-9B13-41FC-A30F-7FDFF917DE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92632B4-9B13-41FC-A30F-7FDFF917DE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92632B4-9B13-41FC-A30F-7FDFF917DE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9D60D8-4D97-474A-BE23-364A0C44449C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9D60D8-4D97-474A-BE23-364A0C44449C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9D60D8-4D97-474A-BE23-364A0C44449C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9D60D8-4D97-474A-BE23-364A0C44449C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475EBA4D-397D-4C9B-81F0-7AB8B983A551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475EBA4D-397D-4C9B-81F0-7AB8B983A551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475EBA4D-397D-4C9B-81F0-7AB8B983A551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475EBA4D-397D-4C9B-81F0-7AB8B983A551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DF7486-F5B0-4050-88C5-7450484C0ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DF7486-F5B0-4050-88C5-7450484C0ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DF7486-F5B0-4050-88C5-7450484C0ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DF7486-F5B0-4050-88C5-7450484C0ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AA79DC-01C5-433F-B22D-0987EF544A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AA79DC-01C5-433F-B22D-0987EF544A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AA79DC-01C5-433F-B22D-0987EF544A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AA79DC-01C5-433F-B22D-0987EF544A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B921DA40-FC58-4A39-9E89-B6EFDA7F749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B921DA40-FC58-4A39-9E89-B6EFDA7F749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B921DA40-FC58-4A39-9E89-B6EFDA7F749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B921DA40-FC58-4A39-9E89-B6EFDA7F749D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A6F917-6B60-4492-8EAD-B78B02E48BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A6F917-6B60-4492-8EAD-B78B02E48BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A6F917-6B60-4492-8EAD-B78B02E48BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A6F917-6B60-4492-8EAD-B78B02E48BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559EBE69-2E29-4464-936B-0F793F4BD6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559EBE69-2E29-4464-936B-0F793F4BD6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559EBE69-2E29-4464-936B-0F793F4BD6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559EBE69-2E29-4464-936B-0F793F4BD6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB322C8-4C75-4E2B-A307-AF384FD0E276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB322C8-4C75-4E2B-A307-AF384FD0E276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB322C8-4C75-4E2B-A307-AF384FD0E276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB322C8-4C75-4E2B-A307-AF384FD0E276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1042BE36-A861-4404-BAB4-A39CD6ECF72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1042BE36-A861-4404-BAB4-A39CD6ECF72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1042BE36-A861-4404-BAB4-A39CD6ECF72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1042BE36-A861-4404-BAB4-A39CD6ECF72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25C3785-4678-4394-86DA-4362FACB02D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25C3785-4678-4394-86DA-4362FACB02D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25C3785-4678-4394-86DA-4362FACB02D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25C3785-4678-4394-86DA-4362FACB02D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6681F2D8-B4B4-4635-B833-0E2428A9CA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6681F2D8-B4B4-4635-B833-0E2428A9CA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6681F2D8-B4B4-4635-B833-0E2428A9CA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6681F2D8-B4B4-4635-B833-0E2428A9CA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F97BC53-A055-45FD-B2F0-5E642B04E349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F97BC53-A055-45FD-B2F0-5E642B04E349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F97BC53-A055-45FD-B2F0-5E642B04E349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F97BC53-A055-45FD-B2F0-5E642B04E349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4748A1-0135-474C-B256-91295C10887D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4748A1-0135-474C-B256-91295C10887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4748A1-0135-474C-B256-91295C10887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4748A1-0135-474C-B256-91295C10887D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D285F063-33C7-49B7-9CB9-16B1018D0A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D285F063-33C7-49B7-9CB9-16B1018D0A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D285F063-33C7-49B7-9CB9-16B1018D0A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D285F063-33C7-49B7-9CB9-16B1018D0A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC4EA15-D8C7-41F6-8A4E-34E71D487476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC4EA15-D8C7-41F6-8A4E-34E71D487476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC4EA15-D8C7-41F6-8A4E-34E71D487476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC4EA15-D8C7-41F6-8A4E-34E71D487476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A631265A-E5B5-4657-9F94-EC71868209E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A631265A-E5B5-4657-9F94-EC71868209E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A631265A-E5B5-4657-9F94-EC71868209E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A631265A-E5B5-4657-9F94-EC71868209E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AACCF27A-E14C-4BC1-B6C8-8864A848A248} = {43D43C23-FCED-4534-B6E9-397227F5302C}
+		{B0884B89-A343-4FA4-BB8F-847DC3FC96A5} = {08600938-A626-4D3D-9AFA-F04207AF73CD}
+		{9AE0938E-7FB7-4EF4-896C-D829508BF667} = {FF65948F-BEC6-4760-AE73-003D9C7DE857}
+		{DFCA59F3-A412-404C-87B1-52EFDF6E57CF} = {8FFA257C-8E51-4352-9BB4-F75649991856}
+		{D4D91BCE-4A00-4C93-93ED-AE744B896242} = {8FFA257C-8E51-4352-9BB4-F75649991856}
+		{8FFA257C-8E51-4352-9BB4-F75649991856} = {54D975E1-8B5C-405C-9F97-F30A81BD3FB9}
+		{9AE6C894-A17D-4653-B668-E89C974EA01E} = {748A3BBB-4D09-4ED3-A98A-F5B464FCE4A7}
+		{6FF4B6D6-2FA6-4C6C-8880-08172E4CFF59} = {748A3BBB-4D09-4ED3-A98A-F5B464FCE4A7}
+		{C92632B4-9B13-41FC-A30F-7FDFF917DE29} = {0F393541-F675-4A11-9E2D-B8BCA9CA4813}
+		{9E9D60D8-4D97-474A-BE23-364A0C44449C} = {54D975E1-8B5C-405C-9F97-F30A81BD3FB9}
+		{475EBA4D-397D-4C9B-81F0-7AB8B983A551} = {AAB0EBD6-0F9C-452A-A0F1-C6C0E701354D}
+		{85DF7486-F5B0-4050-88C5-7450484C0ACC} = {8FFA257C-8E51-4352-9BB4-F75649991856}
+		{A4AA79DC-01C5-433F-B22D-0987EF544A46} = {0F393541-F675-4A11-9E2D-B8BCA9CA4813}
+		{B921DA40-FC58-4A39-9E89-B6EFDA7F749D} = {08600938-A626-4D3D-9AFA-F04207AF73CD}
+		{6A55EE99-269E-4BB4-A0E4-4EFD6DA77C36} = {FF65948F-BEC6-4760-AE73-003D9C7DE857}
+		{86A6F917-6B60-4492-8EAD-B78B02E48BFF} = {FF65948F-BEC6-4760-AE73-003D9C7DE857}
+		{559EBE69-2E29-4464-936B-0F793F4BD6A7} = {4516D848-78EE-44EE-91C3-4904323391E6}
+		{EFB322C8-4C75-4E2B-A307-AF384FD0E276} = {43D43C23-FCED-4534-B6E9-397227F5302C}
+		{1042BE36-A861-4404-BAB4-A39CD6ECF72D} = {AAB0EBD6-0F9C-452A-A0F1-C6C0E701354D}
+		{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88} = {FF65948F-BEC6-4760-AE73-003D9C7DE857}
+		{E25C3785-4678-4394-86DA-4362FACB02D8} = {08600938-A626-4D3D-9AFA-F04207AF73CD}
+		{6681F2D8-B4B4-4635-B833-0E2428A9CA31} = {B38353CF-AD5B-4FEB-B10A-55BCD9F5B5E7}
+		{9F97BC53-A055-45FD-B2F0-5E642B04E349} = {B38353CF-AD5B-4FEB-B10A-55BCD9F5B5E7}
+		{1E4748A1-0135-474C-B256-91295C10887D} = {B38353CF-AD5B-4FEB-B10A-55BCD9F5B5E7}
+		{DD6F5F0B-BE09-46E7-B1F1-941C7160C66E} = {B38353CF-AD5B-4FEB-B10A-55BCD9F5B5E7}
+		{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0} = {FF65948F-BEC6-4760-AE73-003D9C7DE857}
+		{D285F063-33C7-49B7-9CB9-16B1018D0A9F} = {200ED9BE-02AB-4D73-812E-1E85B40B9589}
+		{5FC4EA15-D8C7-41F6-8A4E-34E71D487476} = {DA2F2CD1-E3DB-4DE8-A717-5773CED74BE8}
+		{A631265A-E5B5-4657-9F94-EC71868209E2} = {0F393541-F675-4A11-9E2D-B8BCA9CA4813}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 29
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hfjtfs:8080/tfs/phantom
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Holding.Base.Infrastructure\\Holding.Base.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName1 = Holding.Base.sln
+		SccProjectName1 = Holding.Base.Infrastructure
+		SccLocalPath1 = Holding.Base.Infrastructure
+		SccProjectUniqueName2 = Holding.Base.Event\\Holding.Base.Event.csproj
+		SccProjectTopLevelParentUniqueName2 = Holding.Base.sln
+		SccProjectName2 = Holding.Base.Event
+		SccLocalPath2 = Holding.Base.Event
+		SccProjectUniqueName3 = HFJ.SSK.Kernel.Bus.Configuration\\Holding.Base.Bus.Configuration.csproj
+		SccProjectTopLevelParentUniqueName3 = Holding.Base.sln
+		SccProjectName3 = HFJ.SSK.Kernel.Bus.Configuration
+		SccLocalPath3 = HFJ.SSK.Kernel.Bus.Configuration
+		SccProjectUniqueName4 = Holding.Base.QueryService\\Holding.Base.QueryService.csproj
+		SccProjectTopLevelParentUniqueName4 = Holding.Base.sln
+		SccProjectName4 = Holding.Base.QueryService
+		SccLocalPath4 = Holding.Base.QueryService
+		SccProjectUniqueName5 = Holding.Base.QueryModel\\Holding.Base.QueryModel.csproj
+		SccProjectTopLevelParentUniqueName5 = Holding.Base.sln
+		SccProjectName5 = Holding.Base.QueryModel
+		SccLocalPath5 = Holding.Base.QueryModel
+		SccProjectUniqueName6 = Holding.Base.Cache\\Holding.Base.Cache.csproj
+		SccProjectTopLevelParentUniqueName6 = Holding.Base.sln
+		SccProjectName6 = Holding.Base.Cache
+		SccLocalPath6 = Holding.Base.Cache
+		SccProjectUniqueName7 = Holding.Base.SharedData.Cache\\Holding.Base.SharedData.Cache.csproj
+		SccProjectTopLevelParentUniqueName7 = Holding.Base.sln
+		SccProjectName7 = Holding.Base.SharedData.Cache
+		SccLocalPath7 = Holding.Base.SharedData.Cache
+		SccProjectUniqueName8 = Holding.Base.SOA\\Holding.Base.SOA.csproj
+		SccProjectTopLevelParentUniqueName8 = Holding.Base.sln
+		SccProjectName8 = Holding.Base.SOA
+		SccLocalPath8 = Holding.Base.SOA
+		SccProjectUniqueName9 = Holding.Base.DataProvider\\Holding.Base.DataProvider.csproj
+		SccProjectTopLevelParentUniqueName9 = Holding.Base.sln
+		SccProjectName9 = Holding.Base.DataProvider
+		SccLocalPath9 = Holding.Base.DataProvider
+		SccProjectUniqueName10 = Holding.Base.DomainModel\\Holding.Base.DomainModel.csproj
+		SccProjectTopLevelParentUniqueName10 = Holding.Base.sln
+		SccProjectName10 = Holding.Base.DomainModel
+		SccLocalPath10 = Holding.Base.DomainModel
+		SccProjectUniqueName11 = Holding.Base.QueryProvider\\Holding.Base.QueryProvider.csproj
+		SccProjectTopLevelParentUniqueName11 = Holding.Base.sln
+		SccProjectName11 = Holding.Base.QueryProvider
+		SccLocalPath11 = Holding.Base.QueryProvider
+		SccProjectUniqueName12 = Holding.Base.Security\\Holding.Base.Security.csproj
+		SccProjectTopLevelParentUniqueName12 = Holding.Base.sln
+		SccProjectName12 = Holding.Base.Security
+		SccLocalPath12 = Holding.Base.Security
+		SccProjectUniqueName13 = Holding.Base.Event.Message\\Holding.Base.Event.Message.csproj
+		SccProjectTopLevelParentUniqueName13 = Holding.Base.sln
+		SccProjectName13 = Holding.Base.Event.Message
+		SccLocalPath13 = Holding.Base.Event.Message
+		SccProjectUniqueName14 = Holding.Base.Bus.Rabbitmq.Configuration\\Holding.Base.Bus.Rabbitmq.Configuration.csproj
+		SccProjectTopLevelParentUniqueName14 = Holding.Base.sln
+		SccProjectName14 = Holding.Base.Bus.Rabbitmq.Configuration
+		SccLocalPath14 = Holding.Base.Bus.Rabbitmq.Configuration
+		SccProjectUniqueName15 = Holding.Base.Bus\\Holding.Base.Bus.csproj
+		SccProjectTopLevelParentUniqueName15 = Holding.Base.sln
+		SccProjectName15 = Holding.Base.Bus
+		SccLocalPath15 = Holding.Base.Bus
+		SccProjectUniqueName16 = Holding.Base.Sync\\Holding.Base.Sync.csproj
+		SccProjectTopLevelParentUniqueName16 = Holding.Base.sln
+		SccProjectName16 = Holding.Base.Sync
+		SccLocalPath16 = Holding.Base.Sync
+		SccProjectUniqueName17 = Holding.Base.Infrastructure\\Holding.Base.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName17 = Holding.Base.sln
+		SccProjectName17 = Holding.Base.Infrastructure
+		SccLocalPath17 = Holding.Base.Infrastructure
+		SccProjectUniqueName18 = Holding.Base.DomainModel\\Holding.Base.DomainModel.csproj
+		SccProjectTopLevelParentUniqueName18 = Holding.Base.sln
+		SccProjectName18 = Holding.Base.DomainModel
+		SccLocalPath18 = Holding.Base.DomainModel
+		SccProjectUniqueName19 = Holding.Base.CommandBus\\Holding.Base.CommandBus.csproj
+		SccProjectTopLevelParentUniqueName19 = Holding.Base.sln
+		SccProjectName19 = Holding.Base.CommandBus
+		SccLocalPath19 = Holding.Base.CommandBus
+		SccProjectUniqueName20 = Holding.Base.Event\\Holding.Base.Event.csproj
+		SccProjectTopLevelParentUniqueName20 = Holding.Base.sln
+		SccProjectName20 = Holding.Base.Event
+		SccLocalPath20 = Holding.Base.Event
+		SccProjectUniqueName21 = Holding.Base.EntityFrameworkProvider\\Holding.Base.EntityFrameworkProvider.csproj
+		SccProjectTopLevelParentUniqueName21 = Holding.Base.sln
+		SccProjectName21 = Holding.Base.EntityFrameworkProvider
+		SccLocalPath21 = Holding.Base.EntityFrameworkProvider
+		SccProjectUniqueName22 = Holding.Base.EntityFrameworkProvider.Implement\\Holding.Base.EntityFrameworkProvider.Implement.csproj
+		SccProjectTopLevelParentUniqueName22 = Holding.Base.sln
+		SccProjectName22 = Holding.Base.EntityFrameworkProvider.Implement
+		SccLocalPath22 = Holding.Base.EntityFrameworkProvider.Implement
+		SccProjectUniqueName23 = Holding.Base.EntityFrameworkProvider.Read\\Holding.Base.EntityFrameworkProvider.Read.csproj
+		SccProjectTopLevelParentUniqueName23 = Holding.Base.sln
+		SccProjectName23 = Holding.Base.EntityFrameworkProvider.Read
+		SccLocalPath23 = Holding.Base.EntityFrameworkProvider.Read
+		SccProjectUniqueName24 = Holding.Base.EntityFrameworkProvider.Write\\Holding.Base.EntityFrameworkProvider.Write.csproj
+		SccProjectTopLevelParentUniqueName24 = Holding.Base.sln
+		SccProjectName24 = Holding.Base.EntityFrameworkProvider.Write
+		SccLocalPath24 = Holding.Base.EntityFrameworkProvider.Write
+		SccProjectUniqueName25 = Holding.Base.CommandBus.Messages\\Holding.Base.CommandBus.Messages.csproj
+		SccProjectTopLevelParentUniqueName25 = Holding.Base.sln
+		SccProjectName25 = Holding.Base.CommandBus.Messages
+		SccLocalPath25 = Holding.Base.CommandBus.Messages
+		SccProjectUniqueName26 = TestCommandBus\\TestCommandBus.csproj
+		SccProjectTopLevelParentUniqueName26 = Holding.Base.sln
+		SccProjectName26 = TestCommandBus
+		SccLocalPath26 = TestCommandBus
+		SccProjectUniqueName27 = Holding.Base.MongoMigration\\Holding.Base.MongoMigration.csproj
+		SccProjectTopLevelParentUniqueName27 = Holding.Base.sln
+		SccProjectName27 = Holding.Base.MongoMigration
+		SccLocalPath27 = Holding.Base.MongoMigration
+		SccProjectUniqueName28 = Holding.Base.Security.Authorization\\Holding.Base.Security.Authorization.csproj
+		SccProjectTopLevelParentUniqueName28 = Holding.Base.sln
+		SccProjectName28 = Holding.Base.Security.Authorization
+		SccLocalPath28 = Holding.Base.Security.Authorization
+	EndGlobalSection
+EndGlobal

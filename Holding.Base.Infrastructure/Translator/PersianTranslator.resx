@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcademicYear" xml:space="preserve">
+    <value>سال تحصیلی</value>
+  </data>
+  <data name="CanNotMoveStudentMoreThenOneInToday" xml:space="preserve">
+    <value>انتقال یک دانش آموز بیش  از یک بار در روز به یک کلاس امکان پذیر نمی باشد</value>
+  </data>
+  <data name="Classroom" xml:space="preserve">
+    <value>کلاس</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>ایجاد</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="InputLenghtIsNotInRange" xml:space="preserve">
+    <value>تعداد کاراکترهای {PropertyName} در بازه مناسب نیست</value>
+  </data>
+  <data name="InputValueIsNotInRange" xml:space="preserve">
+    <value>مقدار {0} در بازه عددی مناسب نیست</value>
+  </data>
+  <data name="ITManager" xml:space="preserve">
+    <value>کارشناس فناوری اطلاعات</value>
+  </data>
+  <data name="Lesson" xml:space="preserve">
+    <value>درس</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>پایه</value>
+  </data>
+  <data name="ObjectCanNotBeFind" xml:space="preserve">
+    <value>{0} یافت نشد</value>
+  </data>
+  <data name="ObjectCanNotBeRemoved" xml:space="preserve">
+    <value>امکان حذف این {0} وجود ندارد</value>
+  </data>
+  <data name="ObjectCanNotBeUpdated" xml:space="preserve">
+    <value>امکان بروزرسانی این {0} وجود ندارد</value>
+  </data>
+  <data name="ObjectHasBeenRegistered" xml:space="preserve">
+    <value>این {0} قبلا ثبت شده است</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>اولیا</value>
+  </data>
+  <data name="Personnel" xml:space="preserve">
+    <value>کارمندان</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>مدیر</value>
+  </data>
+  <data name="Student" xml:space="preserve">
+    <value>دانش آموز</value>
+  </data>
+  <data name="Teacher" xml:space="preserve">
+    <value>آموزگار</value>
+  </data>
+  <data name="ThisStudentIsInOtherClass" xml:space="preserve">
+    <value>این دانش آموز قبلا در کلاس {0} قرار گرفته است</value>
+  </data>
+  <data name="ThisStudentIsInThisClassNow" xml:space="preserve">
+    <value>در حال حاضر این دانش آموز در این کلاس قرار دارد</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>بروزرسانی</value>
+  </data>
+  <data name="ValueCannotBeNull" xml:space="preserve">
+    <value>مقدار {PropertyName} را وارد نمایید</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>مشاهده</value>
+  </data>
+  <data name="ThisRoleHasAlreadyBeenRegistered" xml:space="preserve">
+    <value>این نقش قبلا در برای این مدرسه ثبت شده است</value>
+  </data>
+  <data name="AcademicYearIsNotDefined" xml:space="preserve">
+    <value>سال تحصیلی تعیین نشده است</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>معاون</value>
+  </data>
+  <data name="UserNameIsDuplicate" xml:space="preserve">
+    <value>شناسه کاربری تکراری است</value>
+  </data>
+  <data name="AcademicYearIsDuplicated" xml:space="preserve">
+    <value>سال تحصیلی تکراری است</value>
+  </data>
+  <data name="EmploymentType" xml:space="preserve">
+    <value>نوع استخدام</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>وضعیت تاهل</value>
+  </data>
+  <data name="Religion" xml:space="preserve">
+    <value>مذهب</value>
+  </data>
+  <data name="FamilyRelative" xml:space="preserve">
+    <value>نسبت</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>زن</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>مرد</value>
+  </data>
+  <data name="BSc" xml:space="preserve">
+    <value>کارشناسی</value>
+  </data>
+  <data name="Christianity" xml:space="preserve">
+    <value>مسیحیت</value>
+  </data>
+  <data name="Deploma" xml:space="preserve">
+    <value>دیپلم</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>مطلقه</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>دارای کارت پایان خدمت</value>
+  </data>
+  <data name="Exemption" xml:space="preserve">
+    <value>معافیت</value>
+  </data>
+  <data name="HighSchool" xml:space="preserve">
+    <value>تحصیلات متوسطه یا زیر دیپلم</value>
+  </data>
+  <data name="IslamShia" xml:space="preserve">
+    <value>اسلام-شیعه</value>
+  </data>
+  <data name="IslamSunni" xml:space="preserve">
+    <value>اسلام-سنی</value>
+  </data>
+  <data name="Judaism" xml:space="preserve">
+    <value>یهودیت</value>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>متاهل</value>
+  </data>
+  <data name="MSc" xml:space="preserve">
+    <value>کارشناسی ارشد</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>نامشخص</value>
+  </data>
+  <data name="PhD" xml:space="preserve">
+    <value>دکتری</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>مجرد</value>
+  </data>
+  <data name="Technician" xml:space="preserve">
+    <value>کاردانی</value>
+  </data>
+  <data name="Zoroaster" xml:space="preserve">
+    <value>زرتشتی</value>
+  </data>
+  <data name="AB_Negative" xml:space="preserve">
+    <value>آ ب منفی</value>
+  </data>
+  <data name="AB_Positive" xml:space="preserve">
+    <value>آ ب مثبت</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>عربی</value>
+  </data>
+  <data name="Aunt" xml:space="preserve">
+    <value>عمه/خاله</value>
+  </data>
+  <data name="A_Negative" xml:space="preserve">
+    <value>آ منفی</value>
+  </data>
+  <data name="A_Positive" xml:space="preserve">
+    <value>آ مثبت</value>
+  </data>
+  <data name="Bother" xml:space="preserve">
+    <value>برادر</value>
+  </data>
+  <data name="B_Negative" xml:space="preserve">
+    <value>ب منفی</value>
+  </data>
+  <data name="B_Positive" xml:space="preserve">
+    <value>ب مثبت</value>
+  </data>
+  <data name="Employed" xml:space="preserve">
+    <value>استخدام</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>انگلیسی</value>
+  </data>
+  <data name="Father" xml:space="preserve">
+    <value>پدر</value>
+  </data>
+  <data name="Grandfather" xml:space="preserve">
+    <value>پدر بزرگ</value>
+  </data>
+  <data name="Grandmother" xml:space="preserve">
+    <value>مادر بزرگ</value>
+  </data>
+  <data name="Mother" xml:space="preserve">
+    <value>مادر</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>غیره</value>
+  </data>
+  <data name="O_Negative" xml:space="preserve">
+    <value>او منفی</value>
+  </data>
+  <data name="O_Positive" xml:space="preserve">
+    <value>او مثبت</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="Retired" xml:space="preserve">
+    <value>بازنشسته</value>
+  </data>
+  <data name="Sister" xml:space="preserve">
+    <value>خواهر</value>
+  </data>
+  <data name="Tuition" xml:space="preserve">
+    <value>حق تدریس</value>
+  </data>
+  <data name="Uncle" xml:space="preserve">
+    <value>عمو/دایی</value>
+  </data>
+  <data name="Elementary" xml:space="preserve">
+    <value>دبستان</value>
+  </data>
+  <data name="FirstPeriodHighSchool" xml:space="preserve">
+    <value>دوره اول دبیرستان</value>
+  </data>
+  <data name="SecondPeriodHighSchool" xml:space="preserve">
+    <value>دوره دوم دبیرستان</value>
+  </data>
+  <data name="InvalidUserNameOrPassword" xml:space="preserve">
+    <value>شناسه کاربری یا رمز عبور اشتباه است</value>
+  </data>
+  <data name="Acceptable" xml:space="preserve">
+    <value>قابل قبول</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>خوب</value>
+  </data>
+  <data name="MoreEffortNeeded" xml:space="preserve">
+    <value>نیاز به تلاش بیشتر</value>
+  </data>
+  <data name="VeryGood" xml:space="preserve">
+    <value>خیلی خوب</value>
+  </data>
+  <data name="IsDuplicate" xml:space="preserve">
+    <value>{0} تکراری است</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>{0} نا معتبر است</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>نامشخص</value>
+  </data>
+  <data name="RemoveLessonGoal" xml:space="preserve">
+    <value>حذف هدف درس</value>
+  </data>
+  <data name="Calender" xml:space="preserve">
+    <value>تقویم</value>
+  </data>
+  <data name="DisciplinaryGroupAssign" xml:space="preserve">
+    <value>تخصیص گروهی تصمیمات انضباطی</value>
+  </data>
+  <data name="DurationOfAcademicYear" xml:space="preserve">
+    <value>سال تحصیلی</value>
+  </data>
+  <data name="IndividualPerson" xml:space="preserve">
+    <value>اشخاص حقیقی</value>
+  </data>
+  <data name="Option" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="AttachDelayToStudent" xml:space="preserve">
+    <value>ثبت تاخیر</value>
+  </data>
+  <data name="AttachParentReturningToStudent" xml:space="preserve">
+    <value>ثبت مراجعه والدین</value>
+  </data>
+  <data name="AttachPresenceRequestToParent" xml:space="preserve">
+    <value>ثبت درخواست مراجعه والدین</value>
+  </data>
+  <data name="AttachPunishmentToStudentMistake" xml:space="preserve">
+    <value>تایید و ثبت تخلف دانش آموز</value>
+  </data>
+  <data name="AttachReasonToStudentAbsence" xml:space="preserve">
+    <value>ثبت دلیل غیبت</value>
+  </data>
+  <data name="AttachReasonToStudentDelay" xml:space="preserve">
+    <value>ثبت دلیل تاخیر</value>
+  </data>
+  <data name="ChangeMaxAbsenceHour" xml:space="preserve">
+    <value>ذخیره ماکسیمم غیبت</value>
+  </data>
+  <data name="CheckPunishment" xml:space="preserve">
+    <value>تایید مشاهده تخلفات دانش آموز</value>
+  </data>
+  <data name="CreateOfficialForm" xml:space="preserve">
+    <value>ایجاد فرم اداری</value>
+  </data>
+  <data name="DonateEncouragementForStudentGoodActivity" xml:space="preserve">
+    <value>ثبت آیتم تشویقی برای دانش آموز</value>
+  </data>
+  <data name="ImportStudent" xml:space="preserve">
+    <value>دریافت فایل دانش آموز</value>
+  </data>
+  <data name="ImposePunishmentToBatchStudents" xml:space="preserve">
+    <value>ایجاد تشویقی گروهی</value>
+  </data>
+  <data name="MarkStudentAsAbsent" xml:space="preserve">
+    <value>ثبت غیبت</value>
+  </data>
+  <data name="MarkStudentAsPresent" xml:space="preserve">
+    <value>ثبت حضور دانش آموز</value>
+  </data>
+  <data name="OfficialFormView" xml:space="preserve">
+    <value>نمایش فرم اداری</value>
+  </data>
+  <data name="ParentCreate" xml:space="preserve">
+    <value>ایجاد والدین</value>
+  </data>
+  <data name="RegisterBatchStudentGoodActivity" xml:space="preserve">
+    <value>ثبت گروهی فعالیت دانش آموزان</value>
+  </data>
+  <data name="RegisterMistake" xml:space="preserve">
+    <value>ثبت اشتباه دانش آموز</value>
+  </data>
+  <data name="RegisterStudentGoodActivity" xml:space="preserve">
+    <value>ثبت فعالیت دانش آموز</value>
+  </data>
+  <data name="RemoveStudentEncouragement" xml:space="preserve">
+    <value>حذف آیتم تشویقی برای دانش آموز</value>
+  </data>
+  <data name="RemoveStudentGoodActivity" xml:space="preserve">
+    <value>حذف فعالیت دانش آموز</value>
+  </data>
+  <data name="RemoveStudentPunishment" xml:space="preserve">
+    <value>حذف تصمیم تنبیهی دانش آموز</value>
+  </data>
+  <data name="StudentAbsencesView" xml:space="preserve">
+    <value>نمایش غیبت دانش آموز</value>
+  </data>
+  <data name="StudentEncouragementsView" xml:space="preserve">
+    <value>نمایش تشویق دانش آموز</value>
+  </data>
+  <data name="StudentGoodActivitiesView" xml:space="preserve">
+    <value>نمایش فعالیت دانش آموز</value>
+  </data>
+  <data name="StudentParentReturningRemove" xml:space="preserve">
+    <value>حذف مراجعه والدین</value>
+  </data>
+  <data name="StudentParentReturningUpdate" xml:space="preserve">
+    <value>ویرایش مراجعه والدین</value>
+  </data>
+  <data name="StudentParentReturningView" xml:space="preserve">
+    <value>مشاهده مراجعه والدین</value>
+  </data>
+  <data name="StudentPunishmentsView" xml:space="preserve">
+    <value>نمایش تصمیمات تنبیهی</value>
+  </data>
+  <data name="StudentsDelayView" xml:space="preserve">
+    <value>نمایش تاخیر دانش آموزان</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>نقش کاربری</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="AbsenceReason" xml:space="preserve">
+    <value>دلایل غیبت</value>
+  </data>
+  <data name="Cultural" xml:space="preserve">
+    <value>فرهنگی</value>
+  </data>
+  <data name="EncouragementItemReason" xml:space="preserve">
+    <value>تصمیمات تنبیهی</value>
+  </data>
+  <data name="GoodActivity" xml:space="preserve">
+    <value>فعالیت های تشویقی</value>
+  </data>
+  <data name="LessonInLevel" xml:space="preserve">
+    <value>دروس</value>
+  </data>
+  <data name="LessonPlan" xml:space="preserve">
+    <value>روش های تدریس</value>
+  </data>
+  <data name="Mistake" xml:space="preserve">
+    <value>تلخفات</value>
+  </data>
+  <data name="PrimaryScores" xml:space="preserve">
+    <value>امتیازات اولیه</value>
+  </data>
+  <data name="PunishmentItem" xml:space="preserve">
+    <value>تصمیمات تنبیهی</value>
+  </data>
+  <data name="RegistryTeacherNote" xml:space="preserve">
+    <value>اطلاعات دفتر کلاسی</value>
+  </data>
+  <data name="School" xml:space="preserve">
+    <value>مدرسه</value>
+  </data>
+  <data name="SharedData" xml:space="preserve">
+    <value>اطلاعات مشترک</value>
+  </data>
+  <data name="UserRole" xml:space="preserve">
+    <value>نقش کاربران</value>
+  </data>
+  <data name="AbsentStudents" xml:space="preserve">
+    <value>دانش آموزان غایب</value>
+  </data>
+  <data name="AddAbsenceReason" xml:space="preserve">
+    <value>ایجاد دلایل غیبت</value>
+  </data>
+  <data name="AddDescriptiveGrade" xml:space="preserve">
+    <value>ذخیره اطلاعات نمره توصیفی</value>
+  </data>
+  <data name="AddEncouragementItem" xml:space="preserve">
+    <value>ایجاد تصمیمات تنبیهی</value>
+  </data>
+  <data name="AddGoodActivity" xml:space="preserve">
+    <value>ایجاد فعالیت های تضویقی</value>
+  </data>
+  <data name="AddMistake" xml:space="preserve">
+    <value>ایجاد تخلفات</value>
+  </data>
+  <data name="AddNumericalGrade" xml:space="preserve">
+    <value>ذخیره اطلاعات نمره عددی</value>
+  </data>
+  <data name="AddPunishmentItem" xml:space="preserve">
+    <value>ایجاد تصمیمات تنبیهی</value>
+  </data>
+  <data name="AddSignScore" xml:space="preserve">
+    <value>ذخیره اطلاعات نمره شکلی</value>
+  </data>
+  <data name="AddTeachingMedia" xml:space="preserve">
+    <value>ایجاد رسانه های آموزشی</value>
+  </data>
+  <data name="AddTeachingMethod" xml:space="preserve">
+    <value>ایجاد روش های تدریس</value>
+  </data>
+  <data name="AddTeachingPlace" xml:space="preserve">
+    <value>ایجاد فضای آموزشی</value>
+  </data>
+  <data name="AddTeachingTool" xml:space="preserve">
+    <value>ایجاد ابزارهای آموزشی</value>
+  </data>
+  <data name="AddWeeklySchedule" xml:space="preserve">
+    <value>ذخیره برنامه هفتگی</value>
+  </data>
+  <data name="Assistants" xml:space="preserve">
+    <value>معاونین</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>تقویم</value>
+  </data>
+  <data name="CalenderEvents" xml:space="preserve">
+    <value>رخدادهای تقویم</value>
+  </data>
+  <data name="ChangeRegistrationStudentToSchool" xml:space="preserve">
+    <value>ایجاد دانش آموزان  یک کلاس</value>
+  </data>
+  <data name="ChangeStudentClassroom" xml:space="preserve">
+    <value>تغییر کلاس دانش آموز</value>
+  </data>
+  <data name="ChangeUserRole" xml:space="preserve">
+    <value>دریافت لیست مدیران</value>
+  </data>
+  <data name="ChildsInfo" xml:space="preserve">
+    <value>اطلاعات فرزندان</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>شهرها</value>
+  </data>
+  <data name="ClassroomManagementNotes" xml:space="preserve">
+    <value>دریافت اطلاعات دفتر کلاسی</value>
+  </data>
+  <data name="Classrooms" xml:space="preserve">
+    <value>کلاس ها</value>
+  </data>
+  <data name="ConvertedWeeklySchedule" xml:space="preserve">
+    <value>تبدیل برنامه هفتگی</value>
+  </data>
+  <data name="CreateAssistant" xml:space="preserve">
+    <value>تعریف معاون</value>
+  </data>
+  <data name="CreateDurationOfAcademicYear" xml:space="preserve">
+    <value>تعریف سال تحصیلی</value>
+  </data>
+  <data name="CreateITManager" xml:space="preserve">
+    <value>تعریف کارشناس فناوری اطلاعات</value>
+  </data>
+  <data name="CreateLesson" xml:space="preserve">
+    <value>تعریف درس</value>
+  </data>
+  <data name="CreateLessonGoal" xml:space="preserve">
+    <value>تعریف اهداف درس</value>
+  </data>
+  <data name="CreateLevel" xml:space="preserve">
+    <value>تعریف پایه</value>
+  </data>
+  <data name="CreateManager" xml:space="preserve">
+    <value>ایجاد مدیر</value>
+  </data>
+  <data name="CreateParentCommand" xml:space="preserve">
+    <value>ثبت اولیا برای یک دانش آموز</value>
+  </data>
+  <data name="CreatePersonnel" xml:space="preserve">
+    <value>ایجاد کارمند</value>
+  </data>
+  <data name="CreateRole" xml:space="preserve">
+    <value>ذخیره اطلاعات نقش</value>
+  </data>
+  <data name="CreateSchool" xml:space="preserve">
+    <value>تعریف مدرسه</value>
+  </data>
+  <data name="CreateStudent" xml:space="preserve">
+    <value>ایجاد دانش آموز</value>
+  </data>
+  <data name="CreateTeacher" xml:space="preserve">
+    <value>ایجاد مدرس</value>
+  </data>
+  <data name="CreateTeacherClassroomNote" xml:space="preserve">
+    <value>ایجاد یادداشت برای دفتر کلاسی معلم</value>
+  </data>
+  <data name="DeleteAssistant" xml:space="preserve">
+    <value>حذف معاون</value>
+  </data>
+  <data name="DeleteDurationOfAcademicYear" xml:space="preserve">
+    <value>حذف سال تحصیلی</value>
+  </data>
+  <data name="DeleteITManager" xml:space="preserve">
+    <value>حذف کارشناس فناوری اطلاعات</value>
+  </data>
+  <data name="DeleteLesson" xml:space="preserve">
+    <value>حذف درس</value>
+  </data>
+  <data name="DeleteLevel" xml:space="preserve">
+    <value>حذف پایه</value>
+  </data>
+  <data name="DeleteManager" xml:space="preserve">
+    <value>حذف مدیر</value>
+  </data>
+  <data name="DeletePersonnel" xml:space="preserve">
+    <value>حذف کارمند</value>
+  </data>
+  <data name="DeleteRole" xml:space="preserve">
+    <value>حذف اطلاعات نقش</value>
+  </data>
+  <data name="DeleteSchool" xml:space="preserve">
+    <value>حذف مدرسه</value>
+  </data>
+  <data name="DeleteTeacher" xml:space="preserve">
+    <value>حذف مدرس</value>
+  </data>
+  <data name="DeleteTeacherClassroomNote" xml:space="preserve">
+    <value>حذف یادداشت برای دفتر کلاسی معلم</value>
+  </data>
+  <data name="EditStudentParentReturning" xml:space="preserve">
+    <value>ویرایش مراجعه دانش آموزان</value>
+  </data>
+  <data name="EditStudentPunishment" xml:space="preserve">
+    <value>ویرایش تنبیهات دانش اموز</value>
+  </data>
+  <data name="EditWeeklySchedule" xml:space="preserve">
+    <value>ویرایش برنامه هفتگی</value>
+  </data>
+  <data name="EducationHistory" xml:space="preserve">
+    <value>سوابق تحصیلی</value>
+  </data>
+  <data name="EncouragementItem" xml:space="preserve">
+    <value>دریافت اطلاعات تصمیمات تنبیهی</value>
+  </data>
+  <data name="FamilyInfos" xml:space="preserve">
+    <value>اطلاعات خانواده دانش اموز</value>
+  </data>
+  <data name="Get" xml:space="preserve">
+    <value>دریافت</value>
+  </data>
+  <data name="GetTeacherByNationalCode" xml:space="preserve">
+    <value>دریافت یک مدرس با کد ملی</value>
+  </data>
+  <data name="ImposeMistakeByTeacher" xml:space="preserve">
+    <value>ثبت تخلف یک دانش آموز توسط معلم</value>
+  </data>
+  <data name="ITManagers" xml:space="preserve">
+    <value>کارشناس فناوری اطلاعات</value>
+  </data>
+  <data name="LessonInLevels" xml:space="preserve">
+    <value>اطلاعات دروس</value>
+  </data>
+  <data name="LessonObjectives" xml:space="preserve">
+    <value>اهداف یک درس</value>
+  </data>
+  <data name="Managers" xml:space="preserve">
+    <value>مدیران</value>
+  </data>
+  <data name="MarkStudentAsDailyAbsent" xml:space="preserve">
+    <value>ایجاد غیبت روزانه دانش آموزان</value>
+  </data>
+  <data name="MarkStudentAsHourlyAbsent" xml:space="preserve">
+    <value>ایجاد غیبت ساعتی دانش آموزان</value>
+  </data>
+  <data name="MarkStudentsAsHourlyAbsence" xml:space="preserve">
+    <value>ذخیره اطلاعات غیبت ساعتی</value>
+  </data>
+  <data name="MedicalHistory" xml:space="preserve">
+    <value>اطلاعات پزشکی</value>
+  </data>
+  <data name="Mistakes" xml:space="preserve">
+    <value>دریافت تخلفات</value>
+  </data>
+  <data name="ModifyPrimaryScore" xml:space="preserve">
+    <value>ویرایش امتیازات اولیه به صورت گروهی</value>
+  </data>
+  <data name="ModifyStudentEducationHistory" xml:space="preserve">
+    <value>ذخیره تاریخچه تحصیلی</value>
+  </data>
+  <data name="ModifyStudentFamilyInfo" xml:space="preserve">
+    <value>ویرایش اطلاعات خانواده دانش آموز</value>
+  </data>
+  <data name="ModifyStudentMedicalHistory" xml:space="preserve">
+    <value>ذخیره اطلاعات پزشکی دانش آموز</value>
+  </data>
+  <data name="ParentInfo" xml:space="preserve">
+    <value>اطلاعات والدین</value>
+  </data>
+  <data name="ParentPresenceRequest" xml:space="preserve">
+    <value>اضافه کردن درخواست مراجعه دانش آموزان</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>شخص</value>
+  </data>
+  <data name="Personnels" xml:space="preserve">
+    <value>کارمندان</value>
+  </data>
+  <data name="PersonWithPrimaryScores" xml:space="preserve">
+    <value>دریافت لیست پرسنل به همراه امتیازات اولیه</value>
+  </data>
+  <data name="PunishmentItems" xml:space="preserve">
+    <value>دریافت اطلاعات تصمیمات تنبیهی</value>
+  </data>
+  <data name="RegisterLessonInLevelToTeacher" xml:space="preserve">
+    <value>ذخیره دروس معلم</value>
+  </data>
+  <data name="RegisterMistakeToStudent" xml:space="preserve">
+    <value>ثبت تخلف یک دانش آموز توسط مدیر</value>
+  </data>
+  <data name="RemoveAbsenceReason" xml:space="preserve">
+    <value>حذف دلایل غیبت</value>
+  </data>
+  <data name="RemoveEncouragementItem" xml:space="preserve">
+    <value>حذف تصمیمات تنبیهی</value>
+  </data>
+  <data name="RemoveGoodActivity" xml:space="preserve">
+    <value>حذف فعالیت های تضویقی</value>
+  </data>
+  <data name="RemoveMistake" xml:space="preserve">
+    <value>حذف تخلفات</value>
+  </data>
+  <data name="RemovePunishmentItem" xml:space="preserve">
+    <value>حذف تصمیمات تنبیهی</value>
+  </data>
+  <data name="RemoveStudentDelay" xml:space="preserve">
+    <value>حذف تاخیر برای دانش آموز</value>
+  </data>
+  <data name="RemoveStudentParentReturning" xml:space="preserve">
+    <value>حذف مراجعه دانش آموزان</value>
+  </data>
+  <data name="RemoveTeachingMedia" xml:space="preserve">
+    <value>حذف رسانه های آموزشی</value>
+  </data>
+  <data name="RemoveTeachingMethod" xml:space="preserve">
+    <value>حذف روش های تدریس</value>
+  </data>
+  <data name="RemoveTeachingPlace" xml:space="preserve">
+    <value>حذف فضای آموزشی</value>
+  </data>
+  <data name="RemoveTeachingTool" xml:space="preserve">
+    <value>حذف ابزارهای آموزشی</value>
+  </data>
+  <data name="RemoveWeeklySchedule" xml:space="preserve">
+    <value>حذف برنامه هفتگی</value>
+  </data>
+  <data name="RolePermission" xml:space="preserve">
+    <value>اطلاعات سطوح دسترسی نقش ها</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>اطلاعات نقش ها</value>
+  </data>
+  <data name="RolesByUserId" xml:space="preserve">
+    <value>دریافت لیست نقش کاربران</value>
+  </data>
+  <data name="SchoolDefaultData" xml:space="preserve">
+    <value>اطلاعات پایه مدارس</value>
+  </data>
+  <data name="SchoolOption" xml:space="preserve">
+    <value>خصوصیات مدرسه</value>
+  </data>
+  <data name="Schools" xml:space="preserve">
+    <value>مدارس</value>
+  </data>
+  <data name="SetRolePermission" xml:space="preserve">
+    <value>ذخیره اطلاعات سطح دسترسی</value>
+  </data>
+  <data name="StudentAbsences" xml:space="preserve">
+    <value>کلیه غیبت های دانش آموزان یک مدرسه</value>
+  </data>
+  <data name="StudentDelays" xml:space="preserve">
+    <value>تاخیر دانش آموزان در یک مدرسه</value>
+  </data>
+  <data name="StudentEncouragementById" xml:space="preserve">
+    <value>تشویق دانش آموز</value>
+  </data>
+  <data name="StudentEncouragements" xml:space="preserve">
+    <value>تشویقی های دانش آموز</value>
+  </data>
+  <data name="StudentGoodActivities" xml:space="preserve">
+    <value>فعالیت های خوب دانش آموز</value>
+  </data>
+  <data name="StudentGrades" xml:space="preserve">
+    <value>دریافت نمرات دانش آموزان</value>
+  </data>
+  <data name="StudentInSchool" xml:space="preserve">
+    <value>دانش آموزان یک مدرسه</value>
+  </data>
+  <data name="StudentInSchoolGrades" xml:space="preserve">
+    <value>دریافت نمرات یک دانش آموز در یک کلاس</value>
+  </data>
+  <data name="StudentOfficialReports" xml:space="preserve">
+    <value>گزارش اطلاعات فردی دانش آموز</value>
+  </data>
+  <data name="StudentParentReturnings" xml:space="preserve">
+    <value>اطلاعات مراجعه والدین دانش آموز</value>
+  </data>
+  <data name="StudentParents" xml:space="preserve">
+    <value>اولیا دانش آموز</value>
+  </data>
+  <data name="StudentParentsGuids" xml:space="preserve">
+    <value>شناسه اولیا دانش آموز</value>
+  </data>
+  <data name="StudentPunishment" xml:space="preserve">
+    <value>تخلفات ثبت شده کلیه دانش آموزان در مدرسه</value>
+  </data>
+  <data name="StudentPunishmentById" xml:space="preserve">
+    <value>یک تخلف دانش آموز</value>
+  </data>
+  <data name="StudentPunishments" xml:space="preserve">
+    <value>تخلفات دانش آموز</value>
+  </data>
+  <data name="Students" xml:space="preserve">
+    <value>لیست دانش آموزان</value>
+  </data>
+  <data name="StudentsDelay" xml:space="preserve">
+    <value>تاخیرهای ثبت شده کلیه دانش آموزان</value>
+  </data>
+  <data name="StudentWeeklySchedule" xml:space="preserve">
+    <value>برنامه هفتگی دانش آموز</value>
+  </data>
+  <data name="TeacherClassroomNotes" xml:space="preserve">
+    <value>یادداشت های دفتر کلاسی</value>
+  </data>
+  <data name="TeacherInSchool" xml:space="preserve">
+    <value>مدرس یک مدرسه</value>
+  </data>
+  <data name="TeacherLessonInYear" xml:space="preserve">
+    <value>دریافت درس های معلم در سال تحصیلی</value>
+  </data>
+  <data name="TeacherLessonInYearByLessonId" xml:space="preserve">
+    <value>دریافت درس های معلم در سال تحصیلی با کد درس</value>
+  </data>
+  <data name="Teachers" xml:space="preserve">
+    <value>لیست مدرسین</value>
+  </data>
+  <data name="TeachingMedia" xml:space="preserve">
+    <value>دریافت رسانه های آموزشی</value>
+  </data>
+  <data name="TeachingMethods" xml:space="preserve">
+    <value>دریافت لیست روش های تدریس</value>
+  </data>
+  <data name="TeachingPlace" xml:space="preserve">
+    <value>دریافت فضای آموزشی</value>
+  </data>
+  <data name="TeachingTool" xml:space="preserve">
+    <value>دریافت ابزارهای آموزشی</value>
+  </data>
+  <data name="UpdateDurationOfAcademicYear" xml:space="preserve">
+    <value>ویرایش سال تحصیلی</value>
+  </data>
+  <data name="UpdateLesson" xml:space="preserve">
+    <value>ویرایش درس</value>
+  </data>
+  <data name="UpdatePersonnel" xml:space="preserve">
+    <value>ویرایش کارمند</value>
+  </data>
+  <data name="UpdateRole" xml:space="preserve">
+    <value>ویرایش اطلاعات نقش</value>
+  </data>
+  <data name="UpdateSchool" xml:space="preserve">
+    <value>ویرایش مدرسه</value>
+  </data>
+  <data name="UpdateStudent" xml:space="preserve">
+    <value>ویرایش دانش اموز</value>
+  </data>
+  <data name="UpdateStudentAbsent" xml:space="preserve">
+    <value>ویرایش غیبت دانش اموز</value>
+  </data>
+  <data name="UpdateTeacher" xml:space="preserve">
+    <value>ویرایش مدرس</value>
+  </data>
+  <data name="UpdateTeacherPrimaryScore" xml:space="preserve">
+    <value>ویرایش امتیاز مدرس</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>بارگذاری</value>
+  </data>
+  <data name="UserPrimaryInfo" xml:space="preserve">
+    <value>دریافت اطلاعات اولیه کاربر</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>کاربران</value>
+  </data>
+  <data name="WeeklySchedule" xml:space="preserve">
+    <value>برنامه هفتگی</value>
+  </data>
+  <data name="GetAbsenceReason" xml:space="preserve">
+    <value>دریافت اطلاعات دلایل غیبت</value>
+  </data>
+  <data name="GetAbsentStudents" xml:space="preserve">
+    <value>دریافت لیست غایبین دانش آموزان</value>
+  </data>
+  <data name="GetAssistant" xml:space="preserve">
+    <value>دریافت معاون</value>
+  </data>
+  <data name="GetAssistants" xml:space="preserve">
+    <value>دریافت لیست معاون</value>
+  </data>
+  <data name="GetCalendar" xml:space="preserve">
+    <value>دریافت اطلاعات کلاس</value>
+  </data>
+  <data name="GetCalenderEvents" xml:space="preserve">
+    <value>دریافت رخدادهای تقویم</value>
+  </data>
+  <data name="GetChildsInfo" xml:space="preserve">
+    <value>دریافت فرزندان یک پدر یا مادر</value>
+  </data>
+  <data name="GetCities" xml:space="preserve">
+    <value>دریافت لیست استان ها</value>
+  </data>
+  <data name="GetClassroomManagementNotes" xml:space="preserve">
+    <value>دریافت اطلاعات دفتر کلاسی</value>
+  </data>
+  <data name="GetClassrooms" xml:space="preserve">
+    <value>دریافت اطلاعات کلاس</value>
+  </data>
+  <data name="GetConvertedWeeklySchedule" xml:space="preserve">
+    <value>تبدیل برنامه هفتگی</value>
+  </data>
+  <data name="GetDurationOfAcademicYears" xml:space="preserve">
+    <value>دریافت کلیه دانش آموزان</value>
+  </data>
+  <data name="GetEducationHistoryItems" xml:space="preserve">
+    <value>دریافت تاریخچه تحصیلی</value>
+  </data>
+  <data name="GetEncouragements" xml:space="preserve">
+    <value>دریافت اطلاعات تصمیمات تنبیهی</value>
+  </data>
+  <data name="GetFamilyInfos" xml:space="preserve">
+    <value>دریافت اطلاعات خانواده دانش آموز</value>
+  </data>
+  <data name="GetGoodActivities" xml:space="preserve">
+    <value>دریافت فعالیت های تشویقی</value>
+  </data>
+  <data name="GetItManager" xml:space="preserve">
+    <value>دریافت یک کارشناس فناوری اطلاعات</value>
+  </data>
+  <data name="GetITManagers" xml:space="preserve">
+    <value>دریافت لیست کارشناسان فناوری اطلاعات</value>
+  </data>
+  <data name="GetLesson" xml:space="preserve">
+    <value>دریافت یک درس</value>
+  </data>
+  <data name="GetLessonInLevels" xml:space="preserve">
+    <value>دریافت اطلاعات درس</value>
+  </data>
+  <data name="GetLevel" xml:space="preserve">
+    <value>دریافت اطلاعات پایه</value>
+  </data>
+  <data name="GetManager" xml:space="preserve">
+    <value>دریافت اطلاعات مدیر</value>
+  </data>
+  <data name="GetManagers" xml:space="preserve">
+    <value>دریافت لیست مدیران</value>
+  </data>
+  <data name="GetMedicalHistory" xml:space="preserve">
+    <value>دریافت اطلاعات پزشکی</value>
+  </data>
+  <data name="GetMistakes" xml:space="preserve">
+    <value>دریافت تخلفات</value>
+  </data>
+  <data name="GetParentInfo" xml:space="preserve">
+    <value>دریافت اطلاعات پدر و مادر با کد ملی</value>
+  </data>
+  <data name="GetPersonByNationalCode" xml:space="preserve">
+    <value>دریافت شخص با کدملی</value>
+  </data>
+  <data name="GetPersonnel" xml:space="preserve">
+    <value>دریافت یک کارمند</value>
+  </data>
+  <data name="GetPersonnels" xml:space="preserve">
+    <value>دریافت لیست کارمندان</value>
+  </data>
+  <data name="GetPersonWithPrimaryScores" xml:space="preserve">
+    <value>دریافت لیست پرسنل به همراه امتیازات اولیه</value>
+  </data>
+  <data name="GetPunishments" xml:space="preserve">
+    <value>دریافت اطلاعات تصمیمات تنبیهی</value>
+  </data>
+  <data name="GetRolePermissions" xml:space="preserve">
+    <value>دریافت اطلاعات سطوح دسترسی نقش ها</value>
+  </data>
+  <data name="GetRoles" xml:space="preserve">
+    <value>دریافت اطلاعات نقش ها</value>
+  </data>
+  <data name="GetRolesByUserId" xml:space="preserve">
+    <value>دریافت لیست نقش کاربران</value>
+  </data>
+  <data name="GetSchoolDefaultData" xml:space="preserve">
+    <value>دریافت اطلاعات پایه مدارس</value>
+  </data>
+  <data name="GetSchoolOption" xml:space="preserve">
+    <value>دریافت خصوصیات مدرسه</value>
+  </data>
+  <data name="GetSchools" xml:space="preserve">
+    <value>دریافت لیست مدارس</value>
+  </data>
+  <data name="GetStudentAbsences" xml:space="preserve">
+    <value>دریافت کلیه غیبت دانش آموزان</value>
+  </data>
+  <data name="GetStudentDelays" xml:space="preserve">
+    <value>دریافت  تاخیر دانش آموز</value>
+  </data>
+  <data name="GetStudentEncouragementById" xml:space="preserve">
+    <value>دریافت  یک تشویق دانش آموز</value>
+  </data>
+  <data name="GetStudentEncouragements" xml:space="preserve">
+    <value>دریافت تشویقی های دانش آموز</value>
+  </data>
+  <data name="GetStudentGoodActivities" xml:space="preserve">
+    <value>دریافت فعالیت های خوب دانش آموز</value>
+  </data>
+  <data name="GetStudentGrades" xml:space="preserve">
+    <value>دریافت نمرات دانش آموزان</value>
+  </data>
+  <data name="GetStudentInSchool" xml:space="preserve">
+    <value>دریافت کلیه دانش آموزان در مدرسه</value>
+  </data>
+  <data name="GetStudentInSchoolGrades" xml:space="preserve">
+    <value>دریافت نمرات یک دانش آموز در یک کلاس</value>
+  </data>
+  <data name="GetStudentOfficialReports" xml:space="preserve">
+    <value>گزارش اطلاعات فردی دانش آموز</value>
+  </data>
+  <data name="GetStudentParentReturnings" xml:space="preserve">
+    <value>دریافت اطلاعات مراجعه والدین دانش آموز</value>
+  </data>
+  <data name="GetStudentParents" xml:space="preserve">
+    <value>دریافت اطلاعات اولیا دانش آموز</value>
+  </data>
+  <data name="GetStudentParentsGuids" xml:space="preserve">
+    <value>دریافت شناسه اولیا دانش آموز</value>
+  </data>
+  <data name="GetStudentPunishment" xml:space="preserve">
+    <value>دریافت تخلفات ثبت شده کلیه دانش آموزان در مدرسه</value>
+  </data>
+  <data name="GetStudentPunishmentById" xml:space="preserve">
+    <value>دریافت  یک تخلف دانش آموز</value>
+  </data>
+  <data name="GetStudentPunishments" xml:space="preserve">
+    <value>دریافت تخلفات دانش آموز</value>
+  </data>
+  <data name="GetStudentRewards" xml:space="preserve">
+    <value>دریافت تشویقی های یک دانش آموز</value>
+  </data>
+  <data name="GetStudents" xml:space="preserve">
+    <value>دریافت کلیه دانش آموزان</value>
+  </data>
+  <data name="GetStudentsDelay" xml:space="preserve">
+    <value>دریافت تاخیرهای ثبت شده کلیه دانش آموزان در مدرسه</value>
+  </data>
+  <data name="GetStudentWeeklySchedule" xml:space="preserve">
+    <value>دریافت برنامه هفتگی بر اساس شناسه دانش آموز و مدرسه و سال</value>
+  </data>
+  <data name="GetTeacher" xml:space="preserve">
+    <value>دریافت یک مدرس</value>
+  </data>
+  <data name="GetTeacherClassroomNotes" xml:space="preserve">
+    <value>دریافت یادداشت های دفتر کلاسی</value>
+  </data>
+  <data name="GetTeacherLessonInYear" xml:space="preserve">
+    <value>دریافت درس های معلم در سال تحصیلی</value>
+  </data>
+  <data name="GetTeacherLessonInYearByLessonId" xml:space="preserve">
+    <value>دریافت معلم ها درس</value>
+  </data>
+  <data name="GetTeachers" xml:space="preserve">
+    <value>دریافت لیست مدرسین</value>
+  </data>
+  <data name="GetTeachingMedia" xml:space="preserve">
+    <value>دریافت رسانه های آموزشی</value>
+  </data>
+  <data name="GetTeachingMethods" xml:space="preserve">
+    <value>دریافت لیست روش های تدریس</value>
+  </data>
+  <data name="GetTeachingPlace" xml:space="preserve">
+    <value>دریافت فضاهای آموزشی</value>
+  </data>
+  <data name="GetTeachingTool" xml:space="preserve">
+    <value>دریافت ابزارهای آموزشی</value>
+  </data>
+  <data name="GetUserPrimaryInfo" xml:space="preserve">
+    <value>دریافت اطلاعات اولیه کاربر</value>
+  </data>
+  <data name="GetUsersInSchoolBySchoolId" xml:space="preserve">
+    <value>دریافت کاربران یک مدرسه</value>
+  </data>
+  <data name="GetWeeklySchedule" xml:space="preserve">
+    <value>دریافت برنامه هفتگی براساس شناسه کلاس و سال</value>
+  </data>
+  <data name="GetLessonObjectives" xml:space="preserve">
+    <value>دریافت اهداف یک درس</value>
+  </data>
+  <data name="GetTeacherInSchool" xml:space="preserve">
+    <value>دریافت یک مدرس در مدرسه</value>
+  </data>
+  <data name="SchoolAdmin" xml:space="preserve">
+    <value>کاربر ارشد مدرسه</value>
+  </data>
+  <data name="ExamExecutions" xml:space="preserve">
+    <value>آزمون های اجرایی</value>
+  </data>
+  <data name="Migrate" xml:space="preserve">
+    <value>انتقال</value>
+  </data>
+  <data name="RemoveTheEventCalendar" xml:space="preserve">
+    <value>حذف مناسبت از تقویم</value>
+  </data>
+  <data name="Sepration" xml:space="preserve">
+    <value>انفصال</value>
+  </data>
+</root>

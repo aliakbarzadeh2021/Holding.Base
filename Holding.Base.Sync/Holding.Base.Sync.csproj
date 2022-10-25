@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{559EBE69-2E29-4464-936B-0F793F4BD6A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Holding.Base.Sync</RootNamespace>
+    <AssemblyName>Holding.Base.Sync</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.3.0.157, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.3.0\lib\net45\MongoDB.Bson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.3.0.157, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.3.0\lib\net45\MongoDB.Driver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.3.0.157, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.3.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Legacy, Version=2.3.0.157, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\mongocsharpdriver.2.3.0\lib\net45\MongoDB.Driver.Legacy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Channel\FileSyncChannel.cs" />
+    <Compile Include="Channel\RawSyncDataReader.cs" />
+    <Compile Include="Channel\RawSyncDataReseter.cs" />
+    <Compile Include="Channel\RawSyncDataWriter.cs" />
+    <Compile Include="Dtos\IFileSyncDetails.cs" />
+    <Compile Include="Dtos\IFileSyncInfo.cs" />
+    <Compile Include="Factory\FilterFactory.cs" />
+    <Compile Include="Factory\SyncVersionFactory.cs" />
+    <Compile Include="FileSyncer\FileSyncResult.cs" />
+    <Compile Include="FileSyncer\IFileSyncResolver.cs" />
+    <Compile Include="FileSyncer\IFileSyncService.cs" />
+    <Compile Include="FileSyncer\FileSyncService.cs" />
+    <Compile Include="FileSyncInfo\FileSyncInfoService.cs" />
+    <Compile Include="FileSyncInfo\IFileSyncInfoService.cs" />
+    <Compile Include="Filters\EqFilter.cs" />
+    <Compile Include="Filters\Filter.cs" />
+    <Compile Include="Installer\SyncInstaller.cs" />
+    <Compile Include="Dtos\ISyncStepDetails.cs" />
+    <Compile Include="Dtos\ISyncStepsInfo.cs" />
+    <Compile Include="Models\FileSync.cs" />
+    <Compile Include="Models\FileSyncDetails.cs" />
+    <Compile Include="Models\FileSyncInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\IFileSyncRepository.cs" />
+    <Compile Include="Repositories\RawDataPacketRepository.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Repositories\FileSyncRepository.cs" />
+    <Compile Include="Repositories\SyncStepRepository.cs" />
+    <Compile Include="Strategy\IFilterStrategy.cs" />
+    <Compile Include="Channel\CommandSyncChannel.cs" />
+    <Compile Include="CommandSyncService\ISyncAnCommandWithClient.cs" />
+    <Compile Include="CommandSyncService\ISyncAnCommandWithServer.cs" />
+    <Compile Include="CommandSyncService\ISyncCommandFilter.cs" />
+    <Compile Include="Configurations\CommandAssemblyConfigurator.cs" />
+    <Compile Include="Enums\SyncLife.cs" />
+    <Compile Include="Enums\SyncResult.cs" />
+    <Compile Include="Exceptions\AlreadySyncStepIsFilteredException.cs" />
+    <Compile Include="Exceptions\NotFoundPacketsForSyncException.cs" />
+    <Compile Include="Exceptions\NotReadyForSyncException.cs" />
+    <Compile Include="Exceptions\NotSetSyncCommandOnSyncStepException.cs" />
+    <Compile Include="Models\RawDataPacket.cs" />
+    <Compile Include="Models\SyncStep.cs" />
+    <Compile Include="Models\SyncVersion.cs" />
+    <Compile Include="Configurations\SyncApplicationSettingsFactory.cs" />
+    <Compile Include="Exceptions\CommandException.cs" />
+    <Compile Include="Enums\HostType.cs" />
+    <Compile Include="Models\SyncDataPacket.cs" />
+    <Compile Include="Configurations\ISyncApplicationSettings.cs" />
+    <Compile Include="Configurations\SyncApplicationSettings.cs" />
+    <Compile Include="Repositories\IRawDataPacketRepository.cs" />
+    <Compile Include="Repositories\ISyncStepRepository.cs" />
+    <Compile Include="Strategy\IRawSyncDataReadStrategy.cs" />
+    <Compile Include="Strategy\IRawSyncDataWriterStrategy.cs" />
+    <Compile Include="SyncStep\ISyncStepService.cs" />
+    <Compile Include="SyncStep\SyncStepService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="_CreateNewNuGetPackage\Config.ps1" />
+    <None Include="_CreateNewNuGetPackage\DoNotModify\CreateNuGetPackage.ps1" />
+    <None Include="_CreateNewNuGetPackage\DoNotModify\New-NuGetPackage.ps1" />
+    <None Include="_CreateNewNuGetPackage\DoNotModify\UploadNuGetPackage.ps1" />
+    <None Include="_CreateNewNuGetPackage\RunMeToUploadNuGetPackage.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Holding.Base.CommandBus.Messages\Holding.Base.CommandBus.Messages.csproj">
+      <Project>{3BAC1D8C-E4DE-426E-8EB0-67FF8372D8B0}</Project>
+      <Name>Holding.Base.CommandBus.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Holding.Base.CommandBus\Holding.Base.CommandBus.csproj">
+      <Project>{F069E114-D5BE-4DF4-B02A-C58C2EA6CE88}</Project>
+      <Name>Holding.Base.CommandBus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Holding.Base.Infrastructure\Holding.Base.Infrastructure.csproj">
+      <Project>{efb322c8-4c75-4e2b-a307-af384fd0e276}</Project>
+      <Name>Holding.Base.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo2.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_CreateNewNuGetPackage\DoNotModify\nuget.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) ==  Release (
+
+ECHO Creating NuGet package in Post-Build event...
+
+del "$(TargetDir)*.nupkg" /q /f
+
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "&amp; '$(ProjectDir)_CreateNewNuGetPackage\DoNotModify\CreateNuGetPackage.ps1' -ProjectFilePath '$(ProjectPath)' -OutputDirectory '$(TargetDir)' -BuildConfiguration '$(ConfigurationName)' -BuildPlatform '$(PlatformName)'"
+REM Copy "$(TargetDir)*.nupkg" "\\192.168.3.110\Packages"
+
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c92632b4-9b13-41fc-a30f-7fdff917de29": {
+      "ProjectGuid": "c92632b4-9b13-41fc-a30f-7fdff917de29",
+      "DisplayName": "Holding.Base.SOA",
+      "ColorIndex": 0
+    },
+    "b0884b89-a343-4fa4-bb8f-847dc3fc96a5": {
+      "ProjectGuid": "b0884b89-a343-4fa4-bb8f-847dc3fc96a5",
+      "DisplayName": "Holding.Base.Event",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
